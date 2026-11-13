@@ -1,0 +1,17 @@
+{
+  "name": "unified-inbox",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Unified customer inbox (WhatsApp, Instagram, Messenger, Telegram) with an auto-reply bot and order taking.",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "optionalDependencies": {
+    "@whiskeysockets/baileys": "^6.7.9",
+    "pino": "^9.0.0",
+    "qrcode": "^1.5.3"
+  }
+}
